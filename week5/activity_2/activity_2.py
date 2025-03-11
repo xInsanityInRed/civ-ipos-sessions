@@ -1,8 +1,9 @@
 def main():
     pass
         # Phase 1: File Navigation
-
-            # Navigate to the 5th byte position
+with open("data_v2.bin", "r") as file:
+    # Navigate to the 5th byte position
+    nj
 
             # Read and print the next 4 bytes from the current position
 

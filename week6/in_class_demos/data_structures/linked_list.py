@@ -1,12 +1,15 @@
+"""
+Basically, shows how to make a list
+"""
 class Node:
     def __init__(self, data):
         self.data = data
         # When we create a node set its next value to none so no node is linked to it
-        self.next = None
+        self.next = None # next = to find the next item
 
 class LinkedList:
     def __init__(self):
-        self.head = None
+        self.head = None # start of the bookshelf
 
     def append(self, data):
         new_node = Node(data)
@@ -23,7 +26,7 @@ class LinkedList:
         last_node.next = new_node
 
     def getItem(self, index):
-        # go to the start of the linkedlist
+        # go to the start of the linkedlist/bookshelf
         current_node = self.head
         # use a count to find the item in the linked list by index once reached
         count = 0

@@ -47,22 +47,22 @@
 
 # # Slide 20
 # # Define a Unicode string
-# unicode_str = "Hello, world!"
+unicode_str = "Hello, world!"
 
 # # Encode the Unicode string using UTF-8 encoding
-# bytes_obj_utf8 = unicode_str.encode('utf-8')
+bytes_obj_utf8 = unicode_str.encode('utf-8')
 
 # # Decode the bytes object back to a Unicode string
-# decoded_str = bytes_obj_utf8.decode('utf-8')
+decoded_str = bytes_obj_utf8.decode('utf-8')
 
-# print()
+print()
 
 # # Convert integer 42 to a bytes object
-# bytes_42 = (42).to_bytes(1, byteorder='big') # b'*'
+bytes_42 = (42).to_bytes(1, byteorder='big') # b'*'
 
 # # Convert the bytes object back to an integer
-# integer_from_bytes = int.from_bytes(bytes_42, byteorder='big') # 42
+integer_from_bytes = int.from_bytes(bytes_42, byteorder='big') # 42
 
-# print("Bytes representation of 42:", bytes_42)
-# print("Integer from bytes:", integer_from_bytes)
+print("Bytes representation of 42:", bytes_42)
+print("Integer from bytes:", integer_from_bytes)
 
